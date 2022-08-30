@@ -1,0 +1,17 @@
+.movies {
+    display: grid;
+   /* flex-wrap: wrap;
+    justify-content: space-around;*/
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media (min-width: 992px) {
+    .movies {
+      grid-template-columns: repeat(3, 1fr);
+      
+
+    }
+  }
